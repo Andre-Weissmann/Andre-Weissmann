@@ -47,7 +47,7 @@ def status_badge(conclusion):
 def render_static_header():
     return """# Andre Weissmann
 
-Data analyst (healthcare focus) building tools I'd have wanted when I was processing ~1,200 claims/week by hand. Currently building [DataGlow](https://github.com/Andre-Weissmann/dataglow) — a zero-upload data cleaning and validation workbench.
+Data analyst (healthcare focus). I enjoy building tools that I've wanted ever since I first learned lessons from the Google Data Analytics Professional Certificate program. Currently building [DataGlow](https://github.com/Andre-Weissmann/dataglow) — a zero-upload data cleaning and validation workbench.
 
 Portfolio: [andre-weissmann-portfolio.pplx.app](https://andre-weissmann-portfolio.pplx.app)
 """
