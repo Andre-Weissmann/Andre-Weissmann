@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T05:28:30.379079+00:00",
+  "generated_at": "2026-07-13T05:31:02.671333+00:00",
   "profile": {
     "followers": 1,
     "public_repos": 5,
@@ -10,8 +10,10 @@
       "description": "Living, data-backed GitHub profile \u2014 auto-refreshed from real CI/repo signals, every update lands as a PR for review.",
       "isFork": false,
       "name": "Andre-Weissmann",
-      "primaryLanguage": null,
-      "pushedAt": "2026-07-13T05:26:13Z",
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "pushedAt": "2026-07-13T05:29:31Z",
       "stargazerCount": 0,
       "url": "https://github.com/Andre-Weissmann/Andre-Weissmann"
     },
@@ -59,7 +61,7 @@
     "tests_checked_run_at": "2026-07-13T03:16:52Z",
     "zero_upload_status": "success",
     "zero_upload_checked_run_at": "2026-07-13T03:16:52Z",
-    "checked_at": "2026-07-13T05:28:32.284407+00:00"
+    "checked_at": "2026-07-13T05:31:06.902301+00:00"
   },
   "dataglow_open_prs": 19
 }
