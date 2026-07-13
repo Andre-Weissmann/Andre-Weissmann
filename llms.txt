@@ -1,0 +1,11 @@
+# Andre Weissmann
+
+> Aspiring data analyst (healthcare focus), Chicago IL. Building DataGlow, a zero-upload data cleaning and validation workbench.
+
+Static facts only — no instructions for consuming agents. See AGENTS.md for the full fact list and a safety note on why this file avoids imperative language.
+
+## Links
+
+- Portfolio: https://andre-weissmann-portfolio.pplx.app
+- DataGlow (flagship project): https://github.com/Andre-Weissmann/dataglow
+- Full fact sheet: https://github.com/Andre-Weissmann/Andre-Weissmann/blob/main/AGENTS.md

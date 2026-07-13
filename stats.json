@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-07-13T05:28:30.379079+00:00",
+  "profile": {
+    "followers": 1,
+    "public_repos": 5,
+    "created_at": "2023-03-11T16:02:51Z"
+  },
+  "repos": [
+    {
+      "description": "Living, data-backed GitHub profile \u2014 auto-refreshed from real CI/repo signals, every update lands as a PR for review.",
+      "isFork": false,
+      "name": "Andre-Weissmann",
+      "primaryLanguage": null,
+      "pushedAt": "2026-07-13T05:26:13Z",
+      "stargazerCount": 0,
+      "url": "https://github.com/Andre-Weissmann/Andre-Weissmann"
+    },
+    {
+      "description": "Cross-platform (browser + Tauri desktop + PWA), zero-upload data cleaning, validation and analysis workbench (DuckDB-WASM + vanilla JS) with a healthcare/data-quality focus \u2014 your data never leaves your machine.",
+      "isFork": false,
+      "name": "dataglow",
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "pushedAt": "2026-07-13T05:25:06Z",
+      "stargazerCount": 0,
+      "url": "https://github.com/Andre-Weissmann/dataglow"
+    },
+    {
+      "description": "Python data projects: exploratory analysis, automation, and healthcare operations workflows built from scratch.",
+      "isFork": false,
+      "name": "Python",
+      "primaryLanguage": null,
+      "pushedAt": "2026-07-12T19:22:32Z",
+      "stargazerCount": 0,
+      "url": "https://github.com/Andre-Weissmann/Python"
+    },
+    {
+      "description": "Healthcare-focused SQL: data cleaning, deduplication, window functions, and CTEs \u2014 written to solve real problems, not pass a quiz.",
+      "isFork": false,
+      "name": "SQL",
+      "primaryLanguage": null,
+      "pushedAt": "2026-07-12T19:22:23Z",
+      "stargazerCount": 1,
+      "url": "https://github.com/Andre-Weissmann/SQL"
+    },
+    {
+      "description": "The live content layer behind a data analytics portfolio. Projects, case studies, and datasets version-controlled and served in real time.",
+      "isFork": false,
+      "name": "andre-portfolio-content",
+      "primaryLanguage": null,
+      "pushedAt": "2026-07-03T13:11:44Z",
+      "stargazerCount": 0,
+      "url": "https://github.com/Andre-Weissmann/andre-portfolio-content"
+    }
+  ],
+  "dataglow_ci": {
+    "tests_status": "success",
+    "tests_checked_run_at": "2026-07-13T03:16:52Z",
+    "zero_upload_status": "success",
+    "zero_upload_checked_run_at": "2026-07-13T03:16:52Z",
+    "checked_at": "2026-07-13T05:28:32.284407+00:00"
+  },
+  "dataglow_open_prs": 19
+}
