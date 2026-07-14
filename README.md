@@ -22,6 +22,6 @@ Portfolio: [andre-weissmann-portfolio.pplx.app](https://andre-weissmann-portfoli
 | [SQL](https://github.com/Andre-Weissmann/SQL) | Healthcare-focused SQL: data cleaning, deduplication, window functions, and CTEs — written to solve real problems, not pass a quiz. | 1 | Jul 12, 2026 |
 | [andre-portfolio-content](https://github.com/Andre-Weissmann/andre-portfolio-content) | The live content layer behind a data analytics portfolio. Projects, case studies, and datasets version-controlled and served in real time. | 0 | Jul 03, 2026 |
 
-*Last refreshed Jul 13, 2026 · data pulled live from the GitHub API, not hand-maintained · see [`scripts/fetch_stats.py`](scripts/fetch_stats.py) for exactly what is measured and how.*
+*Last refreshed Jul 14, 2026 · data pulled live from the GitHub API, not hand-maintained · see [`scripts/fetch_stats.py`](scripts/fetch_stats.py) for exactly what is measured and how.*
 
 <!-- STATS:END -->
