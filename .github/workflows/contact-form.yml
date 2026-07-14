@@ -30,7 +30,7 @@ jobs:
           MSG_BODY: ${{ github.event.inputs.message }}
         run: |
           python3 - <<'PYEOF'
-          import os, json, urllib.request
+          import os, json, urllib.request, urllib.error
 
           payload = {
             "from": "Portfolio Contact <onboarding@resend.dev>",
@@ -47,6 +47,11 @@ jobs:
               "Content-Type": "application/json"
             }
           )
-          with urllib.request.urlopen(req) as r:
-            print("Status:", r.status, r.read().decode())
+          try:
+            with urllib.request.urlopen(req) as r:
+              print("Success:", r.status, r.read().decode())
+          except urllib.error.HTTPError as e:
+            body = e.read().decode()
+            print("Resend error:", e.code, body)
+            raise
           PYEOF
