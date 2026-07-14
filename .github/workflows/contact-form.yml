@@ -1,0 +1,52 @@
+name: Contact Form Email
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Sender name'
+        required: true
+      email:
+        description: 'Sender email'
+        required: true
+      subject:
+        description: 'Subject'
+        required: false
+        default: 'New portfolio message'
+      message:
+        description: 'Message body'
+        required: true
+
+jobs:
+  send-email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send via Resend
+        env:
+          RESEND_KEY: ${{ secrets.RESEND_API_KEY }}
+          SENDER_NAME: ${{ github.event.inputs.name }}
+          SENDER_EMAIL: ${{ github.event.inputs.email }}
+          MSG_SUBJECT: ${{ github.event.inputs.subject }}
+          MSG_BODY: ${{ github.event.inputs.message }}
+        run: |
+          python3 - <<'PYEOF'
+          import os, json, urllib.request
+
+          payload = {
+            "from": "Portfolio Contact <onboarding@resend.dev>",
+            "to": "andre_weissmann@icloud.com",
+            "reply_to": os.environ["SENDER_EMAIL"],
+            "subject": os.environ["MSG_SUBJECT"],
+            "text": f"From: {os.environ['SENDER_NAME']}\nEmail: {os.environ['SENDER_EMAIL']}\n\n{os.environ['MSG_BODY']}"
+          }
+          req = urllib.request.Request(
+            "https://api.resend.com/emails",
+            data=json.dumps(payload).encode(),
+            headers={
+              "Authorization": f"Bearer {os.environ['RESEND_KEY']}",
+              "Content-Type": "application/json"
+            }
+          )
+          with urllib.request.urlopen(req) as r:
+            print("Status:", r.status, r.read().decode())
+          PYEOF
