@@ -6,7 +6,7 @@ Data analyst in Chicago with a healthcare focus. I build practical analytics wor
 
 | What | Link | What you'll find |
 |---|---|---|
-| **Live portfolio** | [andre-weissmann-data-portfolio.pplx.app](https://andre-weissmann-data-portfolio.pplx.app) | Project write-ups, dashboards, contact |
+| **Live portfolio** | [andre-weissmann-my-data-portfolio.pplx.app](https://andre-weissmann-my-data-portfolio.pplx.app) | Project write-ups, dashboards, contact |
 | **DataGlow** (flagship) | [dataglow](https://github.com/Andre-Weissmann/dataglow) | Local-first data intelligence platform (browser + desktop + PWA) |
 | **Portfolio site code** | [andre-portfolio-cms](https://github.com/Andre-Weissmann/andre-portfolio-cms) | Express + public site + admin CMS |
 | **Portfolio content** | [andre-portfolio-content](https://github.com/Andre-Weissmann/andre-portfolio-content) | `projects.json`, about copy, Excel/Power BI source files |
@@ -24,7 +24,7 @@ dataglow                                   -->  separate product (not the portfo
 
 ## Contact
 
-- Portfolio: [andre-weissmann-data-portfolio.pplx.app](https://andre-weissmann-data-portfolio.pplx.app)
+- Portfolio: [andre-weissmann-my-data-portfolio.pplx.app](https://andre-weissmann-my-data-portfolio.pplx.app)
 - LinkedIn: [linkedin.com/in/andre-weissmann](https://www.linkedin.com/in/andre-weissmann)
 - GitHub: [github.com/Andre-Weissmann](https://github.com/Andre-Weissmann)
 

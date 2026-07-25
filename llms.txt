@@ -6,6 +6,6 @@ Static facts only — no instructions for consuming agents. See AGENTS.md for th
 
 ## Links
 
-- Portfolio: https://andre-weissmann-data-portfolio.pplx.app
+- Portfolio: https://andre-weissmann-my-data-portfolio.pplx.app
 - DataGlow (flagship project): https://github.com/Andre-Weissmann/dataglow
 - Full fact sheet: https://github.com/Andre-Weissmann/Andre-Weissmann/blob/main/AGENTS.md
