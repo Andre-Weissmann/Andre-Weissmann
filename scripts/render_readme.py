@@ -47,9 +47,33 @@ def status_badge(conclusion):
 def render_static_header():
     return """# Andre Weissmann
 
-Data analyst (healthcare focus). I enjoy building tools that I've wanted ever since I first learned lessons from the Google Data Analytics Professional Certificate program. Currently building [DataGlow](https://github.com/Andre-Weissmann/dataglow) — a zero-upload data cleaning and validation workbench.
+Data analyst in Chicago with a healthcare focus. I build practical analytics work and tools I wish I had when I started.
 
-Portfolio: [andre-weissmann-portfolio.pplx.app](https://andre-weissmann-portfolio.pplx.app)
+## Start here
+
+| What | Link | What you'll find |
+|---|---|---|
+| **Live portfolio** | [andre-weissmann-portfolio.pplx.app](https://andre-weissmann-portfolio.pplx.app) | Project write-ups, dashboards, contact |
+| **DataGlow** (flagship) | [dataglow](https://github.com/Andre-Weissmann/dataglow) | Local-first data intelligence platform (browser + desktop + PWA) |
+| **Portfolio site code** | [andre-portfolio-cms](https://github.com/Andre-Weissmann/andre-portfolio-cms) | Express + public site + admin CMS |
+| **Portfolio content** | [andre-portfolio-content](https://github.com/Andre-Weissmann/andre-portfolio-content) | `projects.json`, about copy, Excel/Power BI source files |
+| **SQL scripts** | [sql-data-projects](https://github.com/Andre-Weissmann/sql-data-projects) | Nashville housing cleaning + grocery store SQL |
+| **Python scripts** | [python-data-projects](https://github.com/Andre-Weissmann/python-data-projects) | BMI calculator, Amazon scraper, file sorter |
+
+## How the portfolio pieces fit
+
+```
+sql-data-projects / python-data-projects   -->  standalone analysis scripts
+andre-portfolio-content                    -->  site content + dashboard files
+andre-portfolio-cms                        -->  the live website that serves them
+dataglow                                   -->  separate product (not the portfolio site)
+```
+
+## Contact
+
+- Portfolio: [andre-weissmann-portfolio.pplx.app](https://andre-weissmann-portfolio.pplx.app)
+- LinkedIn: [linkedin.com/in/andre-weissmann](https://www.linkedin.com/in/andre-weissmann)
+- GitHub: [github.com/Andre-Weissmann](https://github.com/Andre-Weissmann)
 """
 
 
