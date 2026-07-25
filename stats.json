@@ -1,67 +1,123 @@
 {
-  "generated_at": "2026-07-14T11:00:00Z",
+  "generated_at": "2026-07-25T03:41:37.800525+00:00",
   "profile": {
-    "followers": 1,
-    "public_repos": 5,
+    "followers": 7,
+    "public_repos": 6,
     "created_at": "2023-03-11T16:02:51Z"
   },
   "repos": [
     {
-      "description": "Living, data-backed GitHub profile \u2014 auto-refreshed from real CI/repo signals, every update lands as a PR for review.",
-      "isFork": false,
-      "name": "Andre-Weissmann",
-      "primaryLanguage": {
-        "name": "Python"
-      },
-      "pushedAt": "2026-07-13T05:29:31Z",
-      "stargazerCount": 0,
-      "url": "https://github.com/Andre-Weissmann/Andre-Weissmann"
-    },
-    {
-      "description": "Cross-platform (browser + Tauri desktop + PWA), zero-upload data cleaning, validation and analysis workbench (DuckDB-WASM + vanilla JS) with a healthcare/data-quality focus \u2014 your data never leaves your machine.",
+      "description": "Your data stays yours. DataGlow is a privacy-first, cross-platform data intelligence platform that runs entirely in your browser or on your desktop. Twenty validation layers. Domain packs for healthcare, finance, and retail, with more on the way. Zero upload. Zero server. Zero compromise.",
       "isFork": false,
       "name": "dataglow",
       "primaryLanguage": {
         "name": "JavaScript"
       },
-      "pushedAt": "2026-07-13T05:25:06Z",
+      "pushedAt": "2026-07-25T03:38:25Z",
       "stargazerCount": 0,
       "url": "https://github.com/Andre-Weissmann/dataglow"
     },
     {
-      "description": "Python data projects: exploratory analysis, automation, and healthcare operations workflows built from scratch.",
+      "description": "Source code for Andre Weissmann's data analytics portfolio \u2014 Express backend, Vite/React frontend, Drizzle ORM, admin CMS",
       "isFork": false,
-      "name": "Python",
-      "primaryLanguage": null,
-      "pushedAt": "2026-07-12T19:22:32Z",
+      "name": "andre-portfolio-cms",
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "pushedAt": "2026-07-23T18:47:25Z",
       "stargazerCount": 0,
-      "url": "https://github.com/Andre-Weissmann/Python"
-    },
-    {
-      "description": "Healthcare-focused SQL: data cleaning, deduplication, window functions, and CTEs \u2014 written to solve real problems, not pass a quiz.",
-      "isFork": false,
-      "name": "SQL",
-      "primaryLanguage": null,
-      "pushedAt": "2026-07-12T19:22:23Z",
-      "stargazerCount": 1,
-      "url": "https://github.com/Andre-Weissmann/SQL"
+      "url": "https://github.com/Andre-Weissmann/andre-portfolio-cms"
     },
     {
       "description": "The live content layer behind a data analytics portfolio. Projects, case studies, and datasets version-controlled and served in real time.",
       "isFork": false,
       "name": "andre-portfolio-content",
       "primaryLanguage": null,
-      "pushedAt": "2026-07-03T13:11:44Z",
+      "pushedAt": "2026-07-23T01:44:15Z",
       "stargazerCount": 0,
       "url": "https://github.com/Andre-Weissmann/andre-portfolio-content"
+    },
+    {
+      "description": "",
+      "isFork": false,
+      "name": "Andre-Weissmann",
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "pushedAt": "2026-07-23T01:42:58Z",
+      "stargazerCount": 0,
+      "url": "https://github.com/Andre-Weissmann/Andre-Weissmann"
+    },
+    {
+      "description": "Python data projects: exploratory analysis, automation, and healthcare operations workflows built from scratch.",
+      "isFork": false,
+      "name": "python-data-projects",
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "pushedAt": "2026-07-13T06:18:30Z",
+      "stargazerCount": 0,
+      "url": "https://github.com/Andre-Weissmann/python-data-projects"
+    },
+    {
+      "description": "SQL practice scripts: Nashville housing data cleaning (T-SQL style) and a small grocery store schema with aggregates. Portfolio SQL work, not a product.",
+      "isFork": false,
+      "name": "sql-data-projects",
+      "primaryLanguage": null,
+      "pushedAt": "2026-07-13T06:18:28Z",
+      "stargazerCount": 1,
+      "url": "https://github.com/Andre-Weissmann/sql-data-projects"
     }
   ],
   "dataglow_ci": {
     "tests_status": "success",
-    "tests_checked_run_at": "2026-07-13T03:16:52Z",
+    "tests_checked_run_at": "2026-07-25T03:02:16Z",
     "zero_upload_status": "success",
-    "zero_upload_checked_run_at": "2026-07-13T03:16:52Z",
-    "checked_at": "2026-07-13T05:31:06.902301+00:00"
+    "zero_upload_checked_run_at": "2026-07-25T03:02:15Z",
+    "checked_at": "2026-07-25T03:41:07.088487+00:00"
   },
-  "dataglow_open_prs": 19
+  "dataglow_open_prs": 0,
+  "commit_velocity": {
+    "dataglow": 23.26,
+    "andre-portfolio-cms": 0.7,
+    "andre-portfolio-content": 1.4,
+    "Andre-Weissmann": 3.26,
+    "python-data-projects": 0.7,
+    "sql-data-projects": 0.7,
+    "total_weekly_rate": 30.0,
+    "total_30d": 129
+  },
+  "most_changed_files": [
+    {
+      "file": "canvas/index.html",
+      "commit_count": 45
+    },
+    {
+      "file": "src/js/bundle.js",
+      "commit_count": 22
+    },
+    {
+      "file": "flags.manifest.json",
+      "commit_count": 16
+    },
+    {
+      "file": "capability-map.manifest.json",
+      "commit_count": 11
+    },
+    {
+      "file": "src/css/main.css",
+      "commit_count": 11
+    }
+  ],
+  "portfolio_health": {
+    "score": 82,
+    "breakdown": {
+      "ci_passing": 25,
+      "commit_velocity": 25,
+      "repo_descriptions": 12,
+      "open_pr_momentum": 0,
+      "dataglow_present": 10,
+      "portfolio_content_freshness": 10
+    }
+  }
 }
