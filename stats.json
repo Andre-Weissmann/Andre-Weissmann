@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-07-25T03:41:37.800525+00:00",
+  "generated_at": "2026-08-03T15:40:24.099793+00:00",
   "profile": {
-    "followers": 7,
+    "followers": 4,
     "public_repos": 6,
     "created_at": "2023-03-11T16:02:51Z"
   },
   "repos": [
     {
-      "description": "Your data stays yours. DataGlow is a privacy-first, cross-platform data intelligence platform that runs entirely in your browser or on your desktop. Twenty validation layers. Domain packs for healthcare, finance, and retail, with more on the way. Zero upload. Zero server. Zero compromise.",
+      "description": "Local-first data intelligence platform. DuckDB-WASM SQL, 20 validation layers, domain packs, and provenance. Runs in browser, desktop (Tauri), and mobile PWA. Your data never leaves the device.",
       "isFork": false,
       "name": "dataglow",
       "primaryLanguage": {
         "name": "JavaScript"
       },
-      "pushedAt": "2026-07-25T03:38:25Z",
+      "pushedAt": "2026-08-03T13:23:59Z",
       "stargazerCount": 0,
       "url": "https://github.com/Andre-Weissmann/dataglow"
     },
     {
-      "description": "Source code for Andre Weissmann's data analytics portfolio \u2014 Express backend, Vite/React frontend, Drizzle ORM, admin CMS",
+      "description": "Live portfolio website: Express API, public site, and owner admin CMS. Serves content from andre-portfolio-content at andre-weissmann-portfolio.pplx.app.",
       "isFork": false,
       "name": "andre-portfolio-cms",
       "primaryLanguage": {
         "name": "JavaScript"
       },
-      "pushedAt": "2026-07-23T18:47:25Z",
+      "pushedAt": "2026-08-03T04:26:59Z",
       "stargazerCount": 0,
       "url": "https://github.com/Andre-Weissmann/andre-portfolio-cms"
     },
     {
-      "description": "The live content layer behind a data analytics portfolio. Projects, case studies, and datasets version-controlled and served in real time.",
-      "isFork": false,
-      "name": "andre-portfolio-content",
-      "primaryLanguage": null,
-      "pushedAt": "2026-07-23T01:44:15Z",
-      "stargazerCount": 0,
-      "url": "https://github.com/Andre-Weissmann/andre-portfolio-content"
-    },
-    {
-      "description": "",
+      "description": "GitHub profile README. Maps how the portfolio, SQL/Python scripts, and DataGlow fit together. Live status auto-refreshes from real CI signals.",
       "isFork": false,
       "name": "Andre-Weissmann",
       "primaryLanguage": {
         "name": "Python"
       },
-      "pushedAt": "2026-07-23T01:42:58Z",
+      "pushedAt": "2026-07-27T15:39:13Z",
       "stargazerCount": 0,
       "url": "https://github.com/Andre-Weissmann/Andre-Weissmann"
     },
     {
-      "description": "Python data projects: exploratory analysis, automation, and healthcare operations workflows built from scratch.",
+      "description": "Content layer for the live portfolio: projects.json, about.json, Excel and Power BI source files. Not the website code (see andre-portfolio-cms).",
+      "isFork": false,
+      "name": "andre-portfolio-content",
+      "primaryLanguage": null,
+      "pushedAt": "2026-07-27T11:24:31Z",
+      "stargazerCount": 0,
+      "url": "https://github.com/Andre-Weissmann/andre-portfolio-content"
+    },
+    {
+      "description": "Python portfolio scripts: BMI and waist-hip ratio calculator, Amazon product page scraper, and automatic file sorter by type.",
       "isFork": false,
       "name": "python-data-projects",
       "primaryLanguage": {
         "name": "Python"
       },
-      "pushedAt": "2026-07-13T06:18:30Z",
+      "pushedAt": "2026-07-25T17:24:28Z",
       "stargazerCount": 0,
       "url": "https://github.com/Andre-Weissmann/python-data-projects"
     },
@@ -64,57 +64,57 @@
       "isFork": false,
       "name": "sql-data-projects",
       "primaryLanguage": null,
-      "pushedAt": "2026-07-13T06:18:28Z",
+      "pushedAt": "2026-07-25T17:24:21Z",
       "stargazerCount": 1,
       "url": "https://github.com/Andre-Weissmann/sql-data-projects"
     }
   ],
   "dataglow_ci": {
-    "tests_status": "success",
-    "tests_checked_run_at": "2026-07-25T03:02:16Z",
+    "tests_status": "failure",
+    "tests_checked_run_at": "2026-07-27T11:22:21Z",
     "zero_upload_status": "success",
-    "zero_upload_checked_run_at": "2026-07-25T03:02:15Z",
-    "checked_at": "2026-07-25T03:41:07.088487+00:00"
+    "zero_upload_checked_run_at": "2026-07-27T11:22:21Z",
+    "checked_at": "2026-08-03T15:39:45.381290+00:00"
   },
   "dataglow_open_prs": 0,
   "commit_velocity": {
     "dataglow": 23.26,
-    "andre-portfolio-cms": 0.7,
-    "andre-portfolio-content": 1.4,
-    "Andre-Weissmann": 3.26,
-    "python-data-projects": 0.7,
-    "sql-data-projects": 0.7,
-    "total_weekly_rate": 30.0,
-    "total_30d": 129
+    "andre-portfolio-cms": 23.26,
+    "Andre-Weissmann": 3.95,
+    "andre-portfolio-content": 2.33,
+    "python-data-projects": 1.4,
+    "sql-data-projects": 1.4,
+    "total_weekly_rate": 55.58,
+    "total_30d": 239
   },
   "most_changed_files": [
     {
       "file": "canvas/index.html",
-      "commit_count": 45
+      "commit_count": 50
     },
     {
-      "file": "src/js/bundle.js",
-      "commit_count": 22
+      "file": "canvas/integrity.manifest.json",
+      "commit_count": 49
+    },
+    {
+      "file": "package.json",
+      "commit_count": 28
     },
     {
       "file": "flags.manifest.json",
-      "commit_count": 16
+      "commit_count": 27
     },
     {
       "file": "capability-map.manifest.json",
-      "commit_count": 11
-    },
-    {
-      "file": "src/css/main.css",
-      "commit_count": 11
+      "commit_count": 25
     }
   ],
   "portfolio_health": {
-    "score": 82,
+    "score": 72,
     "breakdown": {
-      "ci_passing": 25,
+      "ci_passing": 12,
       "commit_velocity": 25,
-      "repo_descriptions": 12,
+      "repo_descriptions": 15,
       "open_pr_momentum": 0,
       "dataglow_present": 10,
       "portfolio_content_freshness": 10
