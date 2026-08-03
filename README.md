@@ -32,7 +32,7 @@ dataglow                                   -->  separate product (not the portfo
 
 ## Live status (auto-refreshed, not hand-written)
 
-**DataGlow CI:** tests 🟢 passing · zero-upload egress-deny proof 🟢 passing ([see the workflow](https://github.com/Andre-Weissmann/dataglow/actions/workflows/zero-upload-proof.yml))
+**DataGlow CI:** tests 🔴 failure · zero-upload egress-deny proof 🟢 passing ([see the workflow](https://github.com/Andre-Weissmann/dataglow/actions/workflows/zero-upload-proof.yml))
 
 **Active work:** 0 open pull request(s) on DataGlow right now — this is a project in progress, not a finished showcase.
 
@@ -40,13 +40,13 @@ dataglow                                   -->  separate product (not the portfo
 
 | Repo | Description | Stars | Last push |
 |---|---|---|---|
-| [dataglow](https://github.com/Andre-Weissmann/dataglow) | Your data stays yours. DataGlow is a privacy-first, cross-platform data intelligence platform that runs entirely in your browser or on your desktop. Twenty validation layers. Domain packs for healthcare, finance, and retail, with more on the way. Zero upload. Zero server. Zero compromise. | 0 | Jul 25, 2026 |
-| [andre-portfolio-cms](https://github.com/Andre-Weissmann/andre-portfolio-cms) | Source code for Andre Weissmann's data analytics portfolio — Express backend, Vite/React frontend, Drizzle ORM, admin CMS | 0 | Jul 23, 2026 |
-| [andre-portfolio-content](https://github.com/Andre-Weissmann/andre-portfolio-content) | The live content layer behind a data analytics portfolio. Projects, case studies, and datasets version-controlled and served in real time. | 0 | Jul 23, 2026 |
-| [Andre-Weissmann](https://github.com/Andre-Weissmann/Andre-Weissmann) |  | 0 | Jul 23, 2026 |
-| [python-data-projects](https://github.com/Andre-Weissmann/python-data-projects) | Python data projects: exploratory analysis, automation, and healthcare operations workflows built from scratch. | 0 | Jul 13, 2026 |
-| [sql-data-projects](https://github.com/Andre-Weissmann/sql-data-projects) | SQL practice scripts: Nashville housing data cleaning (T-SQL style) and a small grocery store schema with aggregates. Portfolio SQL work, not a product. | 1 | Jul 13, 2026 |
+| [dataglow](https://github.com/Andre-Weissmann/dataglow) | Local-first data intelligence platform. DuckDB-WASM SQL, 20 validation layers, domain packs, and provenance. Runs in browser, desktop (Tauri), and mobile PWA. Your data never leaves the device. | 0 | Aug 03, 2026 |
+| [andre-portfolio-cms](https://github.com/Andre-Weissmann/andre-portfolio-cms) | Live portfolio website: Express API, public site, and owner admin CMS. Serves content from andre-portfolio-content at andre-weissmann-portfolio.pplx.app. | 0 | Aug 03, 2026 |
+| [Andre-Weissmann](https://github.com/Andre-Weissmann/Andre-Weissmann) | GitHub profile README. Maps how the portfolio, SQL/Python scripts, and DataGlow fit together. Live status auto-refreshes from real CI signals. | 0 | Jul 27, 2026 |
+| [andre-portfolio-content](https://github.com/Andre-Weissmann/andre-portfolio-content) | Content layer for the live portfolio: projects.json, about.json, Excel and Power BI source files. Not the website code (see andre-portfolio-cms). | 0 | Jul 27, 2026 |
+| [python-data-projects](https://github.com/Andre-Weissmann/python-data-projects) | Python portfolio scripts: BMI and waist-hip ratio calculator, Amazon product page scraper, and automatic file sorter by type. | 0 | Jul 25, 2026 |
+| [sql-data-projects](https://github.com/Andre-Weissmann/sql-data-projects) | SQL practice scripts: Nashville housing data cleaning (T-SQL style) and a small grocery store schema with aggregates. Portfolio SQL work, not a product. | 1 | Jul 25, 2026 |
 
-*Last refreshed Jul 25, 2026 · data pulled live from the GitHub API, not hand-maintained · see [`scripts/fetch_stats.py`](scripts/fetch_stats.py) for exactly what is measured and how.*
+*Last refreshed Aug 03, 2026 · data pulled live from the GitHub API, not hand-maintained · see [`scripts/fetch_stats.py`](scripts/fetch_stats.py) for exactly what is measured and how.*
 
 <!-- STATS:END -->
